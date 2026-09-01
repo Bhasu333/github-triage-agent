@@ -1,0 +1,10 @@
+{
+  "number": 101,
+  "title": "Memory leak when using nested middleware with async handlers",
+  "body": "When chaining 3+ async middleware functions, memory usage grows unbounded over ~10k requests. Repro repo attached. Happens on v4.19.x, not on v4.17.x.",
+  "user": {"login": "demo-reporter"},
+  "labels": [{"name": "needs-triage"}],
+  "created_at": "2026-08-20T10:00:00Z",
+  "comments": 2,
+  "html_url": "https://github.com/expressjs/express/issues/101"
+}
